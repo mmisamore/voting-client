@@ -11,8 +11,9 @@ module.exports = {
       test: /\.jsx?$/,
       exclude: /node_modules/,
       loader: 'react-hot!babel',
-      presets:['es2015','react']
-    }],
+      // loader: 'babel-loader',
+      presets: ['es2015','react']
+    }]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
